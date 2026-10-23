@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T20:39:19.936Z",
+  "at": "2026-10-23T20:43:11.955Z",
   "scope": "Local Bun + SQLite adapter; network/socket access stubbed. Not a Cloudflare/VLESS transport test.",
   "passed": 34,
   "total": 34,

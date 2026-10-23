@@ -15196,7 +15196,8 @@ function getvIeesLink(username, fallbackUuid) {
 		var nodeIp = node.ip;
 		var nodePort = Number(node.port) || 443;
 		var wsPath = encodeURIComponent('/ws?ip=' + nodeIp + ':' + nodePort);
-		var remark = (node.flag || '🌐') + ' ' + (node.countryFa || node.cc || '') + ' │ ' + ['🚀','⚡','💎','🔥','✨','🛸','🌙','🪐'][i % 8] + ' ' + (window.SABI_BRAND || 'SABI-RUN') + ' │ ' + user.username;
+		var nameParts = {flag:node.flag||'🌐',country:node.countryFa||node.cc||'',cc:node.cc||'',emoji:['🚀','⚡','💎','🔥','✨','🛸','🌙','🪐'][i%8],brand:window.SABI_BRAND||'SABI-RUN',user:user.username||'',n:String(i+1),ip:nodeIp,port:String(nodePort)};
+        var remark = String(window.SABI_REMARK_TPL || '{flag} {country} │ {emoji} {brand} │ {user}').replace(/\\{(flag|country|cc|emoji|brand|user|n|ip|port)\\}/g,function(m,k){return nameParts[k];});
 		var encRemark = encodeURIComponent(remark).replace(/\\(/g, '%28').replace(/\\)/g, '%29');
 		links.push('vless://' + (user.uuid || '') + '@' + nodeIp + ':' + nodePort + '?encryption=none&security=tls&sni=' + panelHost + '&fp=chrome&alpn=http%2F1.1&type=ws&host=' + panelHost + '&path=' + wsPath + '#' + encRemark);
 	}
@@ -20780,6 +20781,7 @@ window.applyTheme = applyTheme;
 		if (D('sabiNodesCount')) D('sabiNodesCount').textContent = 'تعداد نودهای ثبت‌شده: ' + (d.nodes_count || 0);
 		if (D('sabiStudioVer')) D('sabiStudioVer').textContent = 'SABI-RUN v' + (d.version || '2.0.0');
 		window.SABI_BRAND = d.brand || 'SABI-RUN';
+        window.SABI_REMARK_TPL = d.remark_tpl || S.def;
         var brandEl = document.querySelector('.sb-brand-title');
         if (brandEl) brandEl.textContent = window.SABI_BRAND;
         var heroEl = document.querySelector('.sabi-hero-name');
