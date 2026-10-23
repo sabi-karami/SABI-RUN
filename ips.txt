@@ -1,0 +1,6 @@
+# Cloudflare anycast entry IPs; not verified exit countries
+104.16.0.1
+104.17.0.1
+104.18.0.1
+162.159.0.1
+172.64.0.1

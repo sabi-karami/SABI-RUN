@@ -1,0 +1,41 @@
+{
+  "scope": "Mocked Cloudflare API tests only; no live installer deployment or token handling tested.",
+  "tests": [
+    {
+      "name": "Disabled service rejects credentials",
+      "passed": true
+    },
+    {
+      "name": "Unapproved origin denied",
+      "passed": true
+    },
+    {
+      "name": "Account discovery",
+      "passed": true
+    },
+    {
+      "name": "Fresh database step",
+      "passed": true
+    },
+    {
+      "name": "Initialize before publish",
+      "passed": true
+    },
+    {
+      "name": "Project configuration step",
+      "passed": true
+    },
+    {
+      "name": "Deployment queued",
+      "passed": true
+    },
+    {
+      "name": "Terminal deployment check",
+      "passed": true
+    },
+    {
+      "name": "Provider block surfaced without retry",
+      "passed": true
+    }
+  ]
+}

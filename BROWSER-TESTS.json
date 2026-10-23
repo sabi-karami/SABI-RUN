@@ -1,0 +1,34 @@
+{
+  "scope": "Local rendered release with mocked API responses; not live Cloudflare connectivity. Sandbox browser ignores its proxy CA only.",
+  "checks": [
+    {
+      "name": "Studio opens",
+      "passed": true
+    },
+    {
+      "name": "Live naming preview updates",
+      "passed": true
+    },
+    {
+      "name": "Studio closes",
+      "passed": true
+    },
+    {
+      "name": "Mobile document fits viewport",
+      "passed": true
+    },
+    {
+      "name": "Studio mobile opens",
+      "passed": true
+    },
+    {
+      "name": "Recovery has new-password field",
+      "passed": true
+    },
+    {
+      "name": "No uncaught browser errors",
+      "passed": true,
+      "details": []
+    }
+  ]
+}

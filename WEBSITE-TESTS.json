@@ -1,0 +1,22 @@
+{
+  "scope": "Local static website rendering",
+  "tests": [
+    {
+      "name": "Token field disabled",
+      "passed": true
+    },
+    {
+      "name": "Consent and blocked status visible",
+      "passed": true
+    },
+    {
+      "name": "No JS errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Mobile layout fits",
+      "passed": true
+    }
+  ]
+}

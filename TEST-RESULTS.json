@@ -1,0 +1,181 @@
+{
+  "at": "2026-10-23T20:39:19.936Z",
+  "scope": "Local Bun + SQLite adapter; network/socket access stubbed. Not a Cloudflare/VLESS transport test.",
+  "passed": 34,
+  "total": 34,
+  "tests": [
+    {
+      "name": "Setup page",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Uninitialized management is closed",
+      "passed": true,
+      "details": 401
+    },
+    {
+      "name": "Initial setup",
+      "passed": true,
+      "details": 200
+    },
+    {
+      "name": "Second setup refused",
+      "passed": true,
+      "details": 400
+    },
+    {
+      "name": "Wrong password refused",
+      "passed": true,
+      "details": 401
+    },
+    {
+      "name": "Admin login",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Session cookie flags",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Auth gate /api/backup-json",
+      "passed": true,
+      "details": 401
+    },
+    {
+      "name": "Auth gate /api/backup",
+      "passed": true,
+      "details": 401
+    },
+    {
+      "name": "Auth gate /api/restore",
+      "passed": true,
+      "details": 401
+    },
+    {
+      "name": "Auth gate /api/studio",
+      "passed": true,
+      "details": 401
+    },
+    {
+      "name": "Auth gate /api/settings/bulk",
+      "passed": true,
+      "details": 401
+    },
+    {
+      "name": "Auth gate /api/analytics",
+      "passed": true,
+      "details": 401
+    },
+    {
+      "name": "Auth gate /api/users",
+      "passed": true,
+      "details": 401
+    },
+    {
+      "name": "Auth gate /api/telegram-info",
+      "passed": true,
+      "details": 401
+    },
+    {
+      "name": "Auth gate /api/test-proxy",
+      "passed": true,
+      "details": 401
+    },
+    {
+      "name": "Cross-origin write refused",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Create user",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Custom entry IP saved",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Studio save",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Subscription generated",
+      "passed": true,
+      "details": 200
+    },
+    {
+      "name": "Flag and brand in subscription",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Backup excludes auth secrets",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Full backup excludes auth secrets",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Settings excludes session salt",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Forged Telegram webhook refused",
+      "passed": true,
+      "details": 403
+    },
+    {
+      "name": "Session revocation",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Old cookie revoked",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Inactive subscription blocked",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Reseller login",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Reseller cannot read administration",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Reseller cannot edit admin-owned user",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Dashboard template",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Rendered JS parses",
+      "passed": true,
+      "details": {
+        "scripts": 6,
+        "bad": 0
+      }
+    }
+  ]
+}

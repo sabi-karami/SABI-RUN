@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.dev.vars
+.wrangler/
+node_modules/
+dist/
+private/
+*.sqlite
+__pycache__/

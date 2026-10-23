@@ -1,0 +1,14 @@
+name = "sabi-run"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-14"
+compatibility_flags = ["nodejs_compat"]
+
+# Replace IDs for your own account before deployment.
+[vars]
+CF_ACCOUNT_ID = "YOUR_ACCOUNT_ID"
+WORKER_NAME = "YOUR_PAGES_PROJECT_NAME"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "sabi-run-db"
+database_id = "YOUR_DATABASE_ID"

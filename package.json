@@ -1,0 +1,8 @@
+{
+  "name": "sabi-run",
+  "private": true,
+  "version": "2.0.0-preview",
+  "scripts": {
+    "test": "bun tests/local.test.ts"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0-preview",
+  "build": "nebula-pages-20261023",
+  "sha256": "a2be75eaf2099618b4b0db87c9508d76715c21b16def8974f776343694b75207",
+  "schema_sha256": "b5370a766cc54c36dd35f96e6f6aaf61b3b5e0a977304a426b4b9a97f1b5b2ca",
+  "status": "Cloudflare redeployment blocked; latest source locally tested only",
+  "checksum_note": "Integrity checksum, NOT a cryptographic release signature."
+}

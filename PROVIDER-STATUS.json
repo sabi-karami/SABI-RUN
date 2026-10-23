@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-23T20:28:44.466417+00:00",
+  "project": "sabi-run",
+  "pages_url": "https://sabi-run.pages.dev",
+  "deployment_block": {
+    "code": 8000119,
+    "message": "Your Pages project has been blocked. Contact abusereply@cloudflare.com."
+  },
+  "http_status": 200,
+  "last_successful_deployment": "f6094592-7e9b-4422-b53f-af5cdceae90a",
+  "release_state": "preview; locally patched version not deployed"
+}

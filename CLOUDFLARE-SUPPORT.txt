@@ -1,0 +1,11 @@
+Subject: Review requested for Pages project sabi-run — error 8000119
+
+Hello Cloudflare team,
+
+Our Pages project "sabi-run" successfully published deployment f6094592-7e9b-4422-b53f-af5cdceae90a on 2026-10-23. The login page and authenticated dashboard were reachable. A subsequent deployment was rejected with:
+
+8000119: Your Pages project has been blocked. Contact abusereply@cloudflare.com.
+
+Could you explain the reason for the restriction and whether this project's intended use is permitted? It is a subscription-management interface containing VLESS/WebSocket proxy functionality. We have stopped redeployment attempts and are not creating replacement projects to bypass the restriction. Please advise what changes, if any, are required for compliance and review.
+
+Thank you.
